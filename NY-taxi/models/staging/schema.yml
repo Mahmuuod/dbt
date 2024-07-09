@@ -1,0 +1,12 @@
+version: 2
+
+
+
+sources:
+  - name: staging
+    database: erudite-tome-423902-d6
+    schema: bigquery_de_zoomcamp
+    tables:
+      - name: green_tripdata_2019-09
+      - name: yellow_taxi_data
+
